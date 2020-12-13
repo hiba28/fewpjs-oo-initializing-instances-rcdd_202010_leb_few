@@ -26,7 +26,7 @@ class Dinner{
     this._dessert = dessert
   }
   listDinner(){
-    return `${this.salad} + ${this.soup} + ${this.entree} + ${this.dessert}`
+    return `${this.salad} + ${this.soup} + ${this.entree} + ${this._dessert}`
   }
 }
 let breakfast = new Breakfast("oats","coffee")
