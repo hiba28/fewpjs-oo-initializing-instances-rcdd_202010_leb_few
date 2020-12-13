@@ -24,4 +24,4 @@ let breakfast = new Breakfast("oats","coffee")
 let lunch = new Lunch("salad",'soup','water')
 let dinner = new Dinner('salad','soup','entree','chocolate cake')
 
-console.log(`i will have for breakfast ${breakfast} , about the lunch i'll take ${lunch}, and for the dinner lemme choose ${dinner}`)
+console.log(`i will have for breakfast ${breakfast.stringfy()} , about the lunch i'll take ${lunch}, and for the dinner lemme choose ${dinner}`)
