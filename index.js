@@ -11,7 +11,7 @@ class Lunch{
     this.soup = soup
     this.drink = drink
   }
-  listbreakfast(){
+  listLucnh(){
     return `${this.salad} + ${this.soup} + ${this.drink}`
   }
 }
