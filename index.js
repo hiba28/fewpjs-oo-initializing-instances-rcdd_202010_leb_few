@@ -11,6 +11,9 @@ class Lunch{
     this.soup = soup
     this.drink = drink
   }
+  listbreakfast(){
+    return `${this.salad} + ${this.soup} + ${this.drink}`
+  }
 }
 class Dinner{
   constructor(salad, soup, entree, dessert){
@@ -24,4 +27,4 @@ let breakfast = new Breakfast("oats","coffee")
 let lunch = new Lunch("salad",'soup','water')
 let dinner = new Dinner('salad','soup','entree','chocolate cake')
 
-console.log(`i will have for breakfast ${breakfast.stringfy()} , about the lunch i'll take ${lunch}, and for the dinner lemme choose ${dinner}`)
+console.log(`i will have for breakfast ${breakfast.listbreakfast()} , about the lunch i'll take ${lunch}, and for the dinner lemme choose ${dinner}`)
