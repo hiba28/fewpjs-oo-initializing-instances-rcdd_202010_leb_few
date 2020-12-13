@@ -4,6 +4,9 @@ class Breakfast{
     this.food = food
     this.drink = drink
   }
+  listBreakfast(){
+    return `${this.food} + ${this.drink}`
+  }
 }
 class Lunch{
   constructor(salad,soup,drink){
@@ -21,6 +24,9 @@ class Dinner{
     this.soup = soup
     this.entree = entree
     this._dessert = dessert
+  }
+  listLunch(){
+    return `${this.salad} + ${this.soup} + ${this.entree} + ${this.dessert}`
   }
 }
 let breakfast = new Breakfast("oats","coffee")
