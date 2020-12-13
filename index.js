@@ -20,5 +20,8 @@ class Dinner{
     this._dessert = dessert
   }
 }
-let fluffyDog1 = new Dog("max","greatPyrenees")
-let fluffyDog2 = new Dog("buzz","labrador")
+let breakfast = new Breakfast("oats","coffee")
+let lunch = new Lunch("salad",'soup','water')
+let dinner = new Dinner('salad','soup','entree','chocolate cake')
+
+console.log(`i will have for breakfast ${breakfast} , about the lunch i'll take ${lunch}, and for the dinner lemme choose ${dinner}`)
