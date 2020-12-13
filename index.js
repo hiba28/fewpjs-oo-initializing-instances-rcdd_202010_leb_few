@@ -31,6 +31,6 @@ class Dinner{
 }
 let breakfast = new Breakfast("oats","coffee")
 let lunch = new Lunch("salad",'soup','water')
-let dinner = new Dinner('salad','soup','entree','chocolate cake')
+let dinner = new Dinner('salad','soup','entree','chocolate')
 
 console.log(`i will have for breakfast ${breakfast.listBreakfast()} , about the lunch i'll take ${lunch.listLunch()}, and for the dinner lemme choose ${dinner.listDinner()}`)
