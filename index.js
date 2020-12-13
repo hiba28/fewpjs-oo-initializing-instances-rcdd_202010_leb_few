@@ -12,5 +12,13 @@ class Lunch{
     this.drink = drink
   }
 }
+class Dinner{
+  constructor(salad, soup, entree, dessert){
+    this.salad = salad
+    this.soup = soup 
+    this.entree = entree
+    this._dessert = dessert
+  }
+}
 let fluffyDog1 = new Dog("max","greatPyrenees")
 let fluffyDog2 = new Dog("buzz","labrador")
