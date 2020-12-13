@@ -26,7 +26,7 @@ class Dinner{
     this._dessert = dessert
   }
   listDinner(){
-    this.dinner.dessert = "cake"
+    this.dessert = "cake"
     return `${this.salad} + ${this.soup} + ${this.entree} + ${this._dessert}`
   }
 }
